@@ -1,5 +1,6 @@
 body {
   background: #e38b29;
+  padding-top: 3rem;
 }
 
 .nav-container {
@@ -43,4 +44,41 @@ li a {
   top: 100px;
 }
 .nav {
-  margin:60%;
+  margin: 60;
+}
+
+header {
+  background: #fdeedc;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 3rem;
+  width: 100%;
+}
+
+header > div,
+a {
+  color: #e38b29;
+  line-height: 100%;
+  text-align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.center-header {
+  width: 40%;
+}
