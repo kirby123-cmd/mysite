@@ -1,6 +1,8 @@
 body {
   background: #e38b29;
   padding-top: 3rem;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-container {
@@ -40,7 +42,7 @@ li a {
   position: absolute;
   width: 300px;
   height: 416px;
-  left: 95px;
+  left: 100px;
   top: 100px;
 }
 .nav {
@@ -81,4 +83,65 @@ a {
 
 .center-header {
   width: 40%;
+}
+p {
+  position: absolute;
+  width: 550px;
+  height: 400px;
+  left: 600px;
+  top: 120px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 90px;
+  /* or 206% */
+
+  display: inline-block;
+  align-items: flex-end;
+  /* text-transform: capitalize; */
+
+  color: #fdeedc;
+}
+
+.linkedin {
+  top: 500px;
+  position: absolute;
+  left: 100px;
+}
+
+.twitter {
+  top: 510px;
+  position: absolute;
+  left: 160px;
+}
+.mail {
+  top: 505px;
+  position: absolute;
+  left: 230px;
+}
+.github {
+  top: 463px;
+  position: absolute;
+  left: 300px;
+  height: 93px;
+}
+span {
+  color: greenyellow;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 28px;
+  position: relative;
+  left: 20px;
+}
+.page-2 {
+  background-color: yellowgreen;
+  position: relative;
+}
+
+.section {
+  position: static;
 }
