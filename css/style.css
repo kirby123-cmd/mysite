@@ -3,6 +3,7 @@ body {
   padding-top: 3rem;
   margin: 0;
   padding: 0;
+  font-family: "Poppins";
 }
 
 .nav-container {
@@ -142,6 +143,25 @@ span {
   position: relative;
 }
 
-.section {
-  position: static;
+.section-2 {
+  margin-top: 700px;
+  position: inline;
+  background-color: bisque;
+  padding: 200px;
+}
+.swiper {
+  width: 1000px;
+  height: 700px;
+  color: #e38b29;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 20px;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  right: 10px;
+  padding: 30px;
+  color: #e38b29 !important;
+  fill: #e38b29 !important;
+  stroke: #e38b29 !important;
 }
